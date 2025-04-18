@@ -136,6 +136,10 @@ if (newNames && newSurnames && newPhoneNumber && newAddress && newUserName && ne
     alert('Debe ingresar todos los datos para crear un nuevo usuario.');
 }
 
+//##################################################
+//PUT - Editar usuarios
+//##################################################
+
 const idEdit = prompt("Ingrese el ID del usuario que desea editar:");
 let opt = prompt("Qué desea editar?\n\n1. Nombres\n2. Apellidos\n");
 
